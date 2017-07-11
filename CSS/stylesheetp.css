@@ -1,21 +1,64 @@
 .navigation .Home-Button {
   font-family: Walbaum, Bodoni, serif;
-  background: rgba(249,243,211,0.8);
-  border: 2px dashed rgb(0, 0, 0);
+  background: rgba(255,255,255,0.8);
+  border-bottom: 1px solid rgb(0,0,0);
+  border-top: 1px solid rgb(0,0,0);
+  font-kerning: auto;
+  padding: 25px 10px 25px 15px;
+  width:100%;
+  height: auto;
+  margin: 0px;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+header {
+
+}
+.NAHnavigation .NAHome-Button{
+  border: 1px solid #000;
+  width: 90%;
+  padding:30px 10px;
+  margin:0px;
+  font-family: Walbaum, Bodoni, serif;
+  display:inline;
 }
 
 .navigation {
-  font-size: 16pt;
+  font-size: 18pt;
   text-align: right;
+  font-kerning: auto;
 }
 
 .Home-Button {
-  font-size: 12pt;
+  font-size: 18pt;
   text-align: left;
+  font-kerning: auto;
 }
 
 .filter {
   font-family:"Avant Garde", Avenir, sans-serif;
   font-size: 14pt;
-  text-align: left;
+  text-align: center;
+  font-kerning: auto;
+  width: 300px;
+  height:150px;
+  min-width: 300px;
+  max-width: 500px;
+  min-height: 150px;
+  max-height: 230px;
+  overflow: visible;
+  border-radius: 30px;
+  border:2px solid #000;
+  padding:5px;
+  margin:50px;
+
+}
+
+
+
+.list {
+  display: inline;
 }
