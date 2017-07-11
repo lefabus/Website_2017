@@ -1,0 +1,11 @@
+body{
+  font: 15px 1.5 "Avant Garde",Avenir,sans-serif;
+  /*
+  used shortcut instead
+  font-family: "Avant Garde", Avenir, sans-serif;
+  font-size: 15px;
+  line-height: 1,5;
+  */
+  padding: 0;
+  margin: 0;
+}
