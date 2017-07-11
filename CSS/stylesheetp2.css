@@ -34,8 +34,8 @@ header {
   color: rgb(255, 255, 255);
   padding-top: 20px;
   min-height:70px;
-  border-bottom: rgb(255,255,255) 2px solid;
-  border-top:rgb(255,255,255) 2px solid;
+/*  border-bottom: rgb(255,255,255) 2px solid;
+  border-top:rgb(255,255,255) 2px solid;*/
 /* Farbe neongelb heraussuchen als Signal und Auszeichnungsfarbe, mehrere Graustufen verwenden?*/
   font: 16px 1.5 Walbaum, Bodoni, serif;
 }
@@ -81,6 +81,7 @@ header .highlight, header .selected a{
   font-size: 50px;
   padding: 0px;
   margin: 0px;
+  color: rgb(255, 255, 158);
 }
 
 #asterisk:hover {
@@ -111,4 +112,14 @@ hover-Optionen auch hier mit reinpacken */
 .projects {
   text-align: center;
   margin: 15px auto;
+}
+/* footer styling */
+footer {
+  font: 16px 1.5 Walbaum, Bodoni, serif;
+  background-color: rgb(190,190,190);
+  color: rgb(255, 255, 255);
+  padding-bottom:20px;
+  padding-top: 10px;
+  min-height:70px;
+  text-align: center;
 }
