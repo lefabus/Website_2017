@@ -19,6 +19,13 @@ body{
 
 }
 
+.containerimages {
+  min-width: 200px;
+  max-width: 500px;
+  margin: auto;
+  overflow: hidden;
+}
+
 ul{
   margin: 0px;
   padding: 0px;
