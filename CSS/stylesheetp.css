@@ -17,6 +17,7 @@
 header {
 
 }
+
 .NAHnavigation .NAHome-Button{
   border: 1px solid #000;
   width: 90%;
@@ -28,8 +29,9 @@ header {
 
 .navigation {
   font-size: 18pt;
-  text-align: right;
+  text-align: left;
   font-kerning: auto;
+
 }
 
 .Home-Button {
@@ -57,8 +59,10 @@ header {
 
 }
 
-
-
 .list {
   display: inline;
+}
+
+.main content {
+  
 }
