@@ -16,7 +16,6 @@ body{
   width: 80%;
   margin: auto;
   overflow: hidden;
-
 }
 
 .containerimages {
@@ -38,7 +37,7 @@ section {
 /*styling header */
 header {
   background-color: rgb(190,190,190);
-  color: rgb(255, 255, 255);
+  color: rgb(0,0,0);
   padding-top: 20px;
   min-height:70px;
 /*  border-bottom: rgb(255,255,255) 2px solid;
@@ -48,7 +47,7 @@ header {
 }
 
 header a{
-  color: rgb(255,255,255);
+  color: rgb(0,0,0);
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
@@ -121,13 +120,36 @@ hover-Optionen auch hier mit reinpacken */
   text-align: center;
   margin: 15px auto;
 }
+
+.hidden {
+  height:200px;
+  width:100%;
+  display: none;
+  /* why is this not seperating the last post from the footer?*/
+}
+
 /* footer styling */
 footer {
+  width: 100%;
   font: 16px 1.5 Walbaum, Bodoni, serif;
-  background-color: rgb(190,190,190);
-  color: rgb(255, 255, 255);
+  /*background-color: rgb(190,190,190);*/
+  color: rgb(0,0,0);
   padding-bottom:20px;
   padding-top: 10px;
   min-height:70px;
-  text-align: center;
+  text-align: left;
+  display: inline;
+  /* doesnt seem to be doing anything, change margin of container instead
+  margin-top: : 30px; */
+
+}
+
+footer #facebook {
+  text-align: right;
+  float: right;
+
+}
+
+footer #copyright {
+float: left;
 }
