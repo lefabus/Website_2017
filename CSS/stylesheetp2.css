@@ -98,7 +98,7 @@ header .highlight, header .selected a{
 
 #asterisk:hover {
   color: rgb(110,110,110);
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 header a:hover{
@@ -144,20 +144,22 @@ footer {
   min-height:70px;
   text-align: left;
   display: inline;
-  /* doesnt seem to be doing anything, change margin of container instead
-  margin-top: : 30px; */
 
 }
 
-footer #facebook {
+.footer #facebook {
   text-align: right;
   float: right;
   margin-right: 65px;
 
 }
 
-footer #copyright {
+.footer #copyright {
 float: left;
 margin-left: 105px;
 margin-right: 70px;
+}
+
+body .footer {
+margin-top: 80px;
 }
