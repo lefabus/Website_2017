@@ -3,6 +3,10 @@
   box-sizing:border-box;
 }
 
+@@font-face {
+
+}
+
 body{
   /*font: 15px 1.5 "Avant Garde",Avenir,sans-serif;*/
   /*
@@ -88,11 +92,13 @@ section {
 }
 
 #asterisk {
-  font-size: 50px;
+  font-size: 35pt;
   padding: 0px;
   margin: 0px;
   /* old color :color: rgb(255, 255, 158);*/
   color: rgb(255, 112, 77);
+  /* für logo float: left;
+  display: inline; */
 }
 
 #asterisk:hover {
@@ -112,7 +118,7 @@ section {
 /* showcase, wenn zwischendurch etwas dazu packen will, dann 33:00*/
 
 img {
-  min-width: 500px;
+  /*min-width: 500px;*/
   overflow: visible;
   height: auto;
 }
