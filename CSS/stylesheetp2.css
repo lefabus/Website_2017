@@ -1,4 +1,8 @@
 /* global angewendete sachen*/
+* {
+  box-sizing:border-box;
+}
+
 body{
   /*font: 15px 1.5 "Avant Garde",Avenir,sans-serif;*/
   /*
@@ -9,7 +13,7 @@ body{
   */
   padding: 0;
   margin: 0;
-  background-color: rgb(215,215,215);
+  background-color: rgb(255,255,255);
 }
 
 .container {
@@ -36,7 +40,7 @@ section {
 
 /*styling header */
 header {
-  background-color: rgb(190,190,190);
+  background-color: rgb(255,255,255);
   color: rgb(0,0,0);
   padding-top: 20px;
   min-height:70px;
@@ -80,7 +84,7 @@ header #branding h1{
 }
 
 header .highlight, header .selected a{
-  color: rgb(255, 255, 158);
+  color: rgb(255, 112,77);
   font-weight: bold;
 }
 
@@ -88,16 +92,17 @@ header .highlight, header .selected a{
   font-size: 50px;
   padding: 0px;
   margin: 0px;
-  color: rgb(255, 255, 158);
+  /* old color :color: rgb(255, 255, 158);*/
+  color: rgb(255, 112, 77);
 }
 
 #asterisk:hover {
-  color: rgb(120,120,120);
+  color: rgb(110,110,110);
   font-weight: bolder;
 }
 
 header a:hover{
-  color: rgb(120,120,120);
+  color: rgb(110,110,110);
   font-weight: bold;
 }
 
@@ -147,9 +152,12 @@ footer {
 footer #facebook {
   text-align: right;
   float: right;
+  margin-right: 65px;
 
 }
 
 footer #copyright {
 float: left;
+margin-left: 105px;
+margin-right: 70px;
 }
