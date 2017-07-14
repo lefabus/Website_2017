@@ -1,0 +1,164 @@
+/* global angewendete sachen*/
+* {
+  box-sizing:border-box;
+}
+
+@font-face {
+  /* webfont reinladen und auf ganzes dokument anwenden */
+
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(255,255,255);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+
+
+section {
+  font-family: "Avant Garde",Avenir,sans-serif;
+  margin-bottom: 30px;
+  position: relative;
+  bottom: 20px;
+}
+
+/*styling header */
+.header {
+  background-color: rgb(255,255,255);
+  color: rgb(0,0,0);
+  padding-top: 20px;
+  min-height:70px;
+  font-family: "Walbaum 12 Walbaum**", Bodoni, serif;
+  margin-bottom:0;
+  margin-top:0;
+  position: relative;
+  top: -20px;
+}
+
+.header a{
+  color: rgb(0,0,0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#asterisk {
+  font-size: 30pt;
+  padding: 0px;
+  margin: 0px;
+  color: rgb(255, 112, 77);
+}
+
+#asterisk:hover {
+  color: rgb(110,110,110);
+  font-weight: bold;
+}
+
+.subtext{
+  font-weight: lighter;
+  float: left;
+}
+
+.quoteorigin {
+float: right;
+}
+
+.buttons a, .buttons h4 {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(255,112,77);
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.buttons a{
+  border-width: 2px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(255, 112,77);
+  padding: 7px;
+  background-color: rgb(255, 255,255);
+}
+
+.buttons h4 a:hover{
+  color: rgb(110,110,110);
+  border-color:rgb(110,110,110);
+}
+/* why is the hover function not working here? */
+
+
+.footer img {
+  /*min-width: 500px;*/
+  overflow: visible;
+  height: auto;
+}
+
+/* footer styling */
+.footer {
+  width: 100%;
+  font: 16px 1.5 Walbaum, Bodoni, serif;
+  /*background-color: rgb(190,190,190);*/
+  color: rgb(0,0,0);
+  padding-bottom:20px;
+  padding-top: 10px;
+  min-height:70px;
+  /*text-align: left; NEED TO BE MORE SPECIFIC */
+  display: inline;
+
+}
+
+.footer #facebook {
+  text-align: right;
+  margin-right:125px;
+
+}
+
+.footer #instagram {
+  text-align: right;
+  margin-right: 2px;
+}
+
+
+.footer nav {
+  float: right;
+  display: inline;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.footer nav #facebook {
+  position: relative;
+  top:-5px;
+}
+
+.footer nav #instagram {
+  position: relative;
+  top:1px;
+}
+
+.footer #copyright {
+float: left;
+margin-left: 105px;
+margin-right: 60px;
+margin-top: 80px;
+}
+
+.footer #facebook:hover{
+ /*how can i add the coloured img underneath here, so it will show as hover option?? */
+}
+
+.footer #instagram:hover{
+ /*how can i add the coloured img underneath here, so it will show as hover option?? */
+/*background-color: rgb(0, 0, 0);*/
+}
+
+/*body .footer {
+margin-top: 80px;
+}*/
