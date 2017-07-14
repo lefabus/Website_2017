@@ -27,6 +27,11 @@ body{
   overflow: hidden;
 }
 
+.container ul{
+  position: relative;
+  bottom: 3px;
+}
+
 .containerimages {
   min-width: 200px;
   max-width: 500px;
@@ -118,7 +123,13 @@ section {
 
 /* showcase, wenn zwischendurch etwas dazu packen will, dann 33:00*/
 
-img {
+.containerimages img {
+  /*min-width: 500px;*/
+  overflow: visible;
+  height: 420px;
+}
+
+.footer img {
   /*min-width: 500px;*/
   overflow: visible;
   height: auto;
@@ -130,6 +141,10 @@ hover-Optionen auch hier mit reinpacken */
 .projects {
   text-align: center;
   margin: 15px auto;
+}
+
+.projects p {
+  margin-bottom: 80px;
 }
 
 /*.hidden {
@@ -179,7 +194,7 @@ hover-Optionen auch hier mit reinpacken */
 
 .footer nav #instagram {
   position: relative;
-  top:2px;
+  top:1px;
 }
 
 .footer #copyright {
