@@ -29,7 +29,7 @@ body{
 
 .container ul{
   position: relative;
-  bottom: 3px;
+  top:13px;
 }
 
 .containerimages {
@@ -82,10 +82,16 @@ section {
   margin-bottom: 5px;
 }
 
+/* i dont really need this #branding {
+  height: 120px;
+}
+*/
+
 .header nav{
   float:right;
   margin-top: 12px;
   margin-right: 30px;
+  margin-bottom: 10px;
 }
 
 .header #branding h1{
@@ -97,19 +103,33 @@ section {
   font-weight: bold;
 }
 
-#asterisk {
+/*#asterisk {
   font-size: 35pt;
   padding: 0px;
   margin: 0px;
-  /* old color :color: rgb(255, 255, 158);*/
+  /* old color :color: rgb(255, 255, 158);
   color: rgb(255, 112, 77);
   /* für logo float: left;
-  display: inline; */
+  display: inline;
 }
 
 #asterisk:hover {
   color: rgb(110,110,110);
   font-weight: bold;
+} */
+
+#logo {
+  position: relative;
+  top:10px;
+  right:2px;
+  padding: 0;
+  margin: 0;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+#logo:hover {
+/* welche hover optionen habe ich hier ? */
 }
 
 .header a:hover{
