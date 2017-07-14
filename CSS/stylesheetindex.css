@@ -9,13 +9,6 @@
 }
 
 body{
-  /*font: 15px 1.5 "Avant Garde",Avenir,sans-serif;*/
-  /*
-  used shortcut instead
-  font-family: "Avant Garde", Avenir, sans-serif;
-  font-size: 15px;
-  line-height: 1,5;
-  */
   padding: 0;
   margin: 0;
   background-color: rgb(255,255,255);
@@ -27,25 +20,13 @@ body{
   overflow: hidden;
 }
 
-.container ul{
-  position: relative;
-  top:13px;
-}
 
-.containerimages {
-  min-width: 200px;
-  max-width: 500px;
-  margin: auto;
-  overflow: hidden;
-}
-
-ul{
-  margin: 0px;
-  padding: 0px;
-}
 
 section {
-  font: 15px 1.5 "Avant Garde",Avenir,sans-serif;
+  font: auto 1.5 "Avant Garde",Avenir,sans-serif;
+  margin-bottom: 30px;
+  position: relative;
+  bottom: 20px;
 }
 
 /*styling header */
@@ -55,98 +36,52 @@ section {
   padding-top: 20px;
   min-height:70px;
   font-family: "Walbaum 12 Walbaum**", Bodoni, serif;
-  margin-bottom: 80px;
-  margin-top: 10px;
+  margin-bottom:0;
+  margin-top:0;
+  position: relative;
+  top: -20px;
 }
 
 .header a{
   color: rgb(0,0,0);
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
 }
 
-.header ul{
-  padding: 0;
-  margin: 0;
-}
-
-.header li{
-  float: left;
-  display:inline;
-  padding: 20px 12px 3px 20px;
-}
-
-.header #branding{
-  float:left;
-  margin-bottom: 5px;
-}
-
-/* i dont really need this #branding {
-  height: 120px;
-}
-*/
-
-.header nav{
-  float:right;
-  margin-top: 12px;
-  margin-right: 30px;
-  margin-bottom: 10px;
-}
-
-.header #branding h1{
-  margin: 0;
-}
-
-.header .highlight, .header .selected a{
-  color: rgb(255, 112,77);
-  font-weight: bold;
-}
-
-/*#asterisk {
-  font-size: 35pt;
+#asterisk {
+  font-size: 30pt;
   padding: 0px;
   margin: 0px;
-  /* old color :color: rgb(255, 255, 158);
   color: rgb(255, 112, 77);
-  /* für logo float: left;
-  display: inline;
 }
 
 #asterisk:hover {
   color: rgb(110,110,110);
   font-weight: bold;
-} */
-
-#logo {
-  position: relative;
-  top:10px;
-  right:2px;
-  padding: 0;
-  margin: 0;
-  margin-left: 30px;
-  margin-right: 10px;
 }
 
-#logo:hover {
-/* welche hover optionen habe ich hier ? */
+.subtext {
+  font-size: 25pt;
 }
 
-.header a:hover{
-  color: rgb(110,110,110);
+.buttons a, .buttons h4 {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(255,112,77);
+  font-size: 14pt;
   font-weight: bold;
 }
 
-#branding {
-  font: auto 1.0 Walbaum, Bodoni, serif;
-}
-
-/* showcase, wenn zwischendurch etwas dazu packen will, dann 33:00*/
-
-.containerimages img {
-  /*min-width: 500px;*/
-  overflow: visible;
-  height: 420px;
+.buttons a{
+  border-width: 2px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(255, 112,77);
+  padding: 7px;
+  background-color: rgb(255, 255,255);
 }
 
 .footer img {
@@ -154,25 +89,6 @@ section {
   overflow: visible;
   height: auto;
 }
-
-/* main, alle Bilder und Beschreibung + die jeweiligen Links,
-hover-Optionen auch hier mit reinpacken */
-
-.projects {
-  text-align: center;
-  margin: 15px auto;
-}
-
-.projects p {
-  margin-bottom: 80px;
-}
-
-/*.hidden {
-  height:200px;
-  width:100%;
-  display: none;
-
-} not needed anymore, didnt work anyways*/
 
 /* footer styling */
 .footer {
