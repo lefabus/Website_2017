@@ -3,7 +3,8 @@
   box-sizing:border-box;
 }
 
-@@font-face {
+@font-face {
+  /* webfont reinladen und auf ganzes dokument anwenden */
 
 }
 
@@ -131,15 +132,15 @@ hover-Optionen auch hier mit reinpacken */
   margin: 15px auto;
 }
 
-.hidden {
+/*.hidden {
   height:200px;
   width:100%;
   display: none;
-  /* why is this not seperating the last post from the footer?*/
-}
+
+} not needed anymore, didnt work anyways*/
 
 /* footer styling */
-footer {
+.footer {
   width: 100%;
   font: 16px 1.5 Walbaum, Bodoni, serif;
   /*background-color: rgb(190,190,190);*/
@@ -147,24 +148,47 @@ footer {
   padding-bottom:20px;
   padding-top: 10px;
   min-height:70px;
-  text-align: left;
+  /*text-align: left; NEED TO BE MORE SPECIFIC */
   display: inline;
 
 }
 
 .footer #facebook {
   text-align: right;
-  float: right;
-  margin-right: 65px;
+  margin-right:125px;
 
+}
+
+.footer #instagram {
+  text-align: right;
+  margin-right: 2px;
+}
+
+
+.footer nav {
+  float: right;
+  display: inline;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.footer nav #facebook {
+  position: relative;
+  top:-5px;
+}
+
+.footer nav #instagram {
+  position: relative;
+  top:2px;
 }
 
 .footer #copyright {
 float: left;
 margin-left: 105px;
-margin-right: 70px;
-}
-
-body .footer {
+margin-right: 60px;
 margin-top: 80px;
 }
+
+/*body .footer {
+margin-top: 80px;
+}*/
