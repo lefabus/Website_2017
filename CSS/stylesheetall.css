@@ -6,7 +6,7 @@
 
 @font-face {
  font-family: 'Raleway', sans-serif;
-/* only used as dropback font since Avant Garde looks much better */
+/* webfont only used as dropback font since Avant Garde looks much better */
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 }
 
 a img:hover {
-  -webkit-transform: scale(1.05,1.05);
+  -webkit-transform: scale(1.08,1.08);
 }
 
 /* global footer */
@@ -252,6 +252,10 @@ section {
 
 .projects p {
   margin-bottom: 80px;
+}
+
+.main {
+  margin-top: 100px;
 }
 
 /* about-site */
