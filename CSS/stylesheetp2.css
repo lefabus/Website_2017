@@ -8,14 +8,12 @@
 
 }
 
+a img:hover {
+  -webkit-transform: scale(1.05,1.05);
+}
+
+
 body{
-  /*font: 15px 1.5 "Avant Garde",Avenir,sans-serif;*/
-  /*
-  used shortcut instead
-  font-family: "Avant Garde", Avenir, sans-serif;
-  font-size: 15px;
-  line-height: 1,5;
-  */
   padding: 0;
   margin: 0;
   background-color: rgb(255,255,255);
@@ -82,11 +80,6 @@ section {
   margin-bottom: 5px;
 }
 
-/* i dont really need this #branding {
-  height: 120px;
-}
-*/
-
 .header nav{
   float:right;
   margin-top: 12px;
@@ -103,21 +96,6 @@ section {
   font-weight: bold;
 }
 
-/*#asterisk {
-  font-size: 35pt;
-  padding: 0px;
-  margin: 0px;
-  /* old color :color: rgb(255, 255, 158);
-  color: rgb(255, 112, 77);
-  /* für logo float: left;
-  display: inline;
-}
-
-#asterisk:hover {
-  color: rgb(110,110,110);
-  font-weight: bold;
-} */
-
 #logo {
   position: relative;
   top:10px;
@@ -126,10 +104,6 @@ section {
   margin: 0;
   margin-left: 30px;
   margin-right: 10px;
-}
-
-#logo:hover {
-/* welche hover optionen habe ich hier ? */
 }
 
 .header a:hover{
@@ -141,22 +115,13 @@ section {
   font: auto 1.0 Walbaum, Bodoni, serif;
 }
 
-/* showcase, wenn zwischendurch etwas dazu packen will, dann 33:00*/
-
 .containerimages img {
   /*min-width: 500px;*/
   overflow: visible;
   height: 420px;
 }
 
-.footer img {
-  /*min-width: 500px;*/
-  overflow: visible;
-  height: auto;
-}
-
-/* main, alle Bilder und Beschreibung + die jeweiligen Links,
-hover-Optionen auch hier mit reinpacken */
+/* main, alle Bilder und Beschreibung */
 
 .projects {
   text-align: center;
@@ -167,23 +132,15 @@ hover-Optionen auch hier mit reinpacken */
   margin-bottom: 80px;
 }
 
-/*.hidden {
-  height:200px;
-  width:100%;
-  display: none;
-
-} not needed anymore, didnt work anyways*/
 
 /* footer styling */
 .footer {
   width: 100%;
   font: 16px 1.5 Walbaum, Bodoni, serif;
-  /*background-color: rgb(190,190,190);*/
   color: rgb(0,0,0);
   padding-bottom:20px;
   padding-top: 10px;
   min-height:70px;
-  /*text-align: left; NEED TO BE MORE SPECIFIC */
   display: inline;
 
 }
@@ -191,7 +148,6 @@ hover-Optionen auch hier mit reinpacken */
 .footer #facebook {
   text-align: right;
   margin-right:125px;
-
 }
 
 .footer #instagram {
@@ -224,15 +180,7 @@ margin-right: 60px;
 margin-top: 80px;
 }
 
-.footer #facebook:hover{
- /*how can i add the coloured img underneath here, so it will show as hover option?? */
+.footer img {
+  overflow: visible;
+  height: auto;
 }
-
-.footer #instagram:hover{
- /*how can i add the coloured img underneath here, so it will show as hover option?? */
-/*background-color: rgb(0, 0, 0);*/
-}
-
-/*body .footer {
-margin-top: 80px;
-}*/
