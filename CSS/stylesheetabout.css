@@ -37,9 +37,6 @@ body{
   text-decoration: none;
 }
 
-#feuerbach:hover{
-  color: rgb(250,250,250);
-}
 
 section {
   font: 15px 1.5 "Avant Garde",Avenir,sans-serif;
@@ -78,11 +75,6 @@ section {
   float:left;
   margin-bottom: 5px;
 }
-
-/* i dont really need this #branding {
-  height: 120px;
-}
-*/
 
 .header nav{
   float:right;
@@ -136,14 +128,60 @@ section {
   height: auto;
 }
 
-/* main, alle Bilder und Beschreibung + die jeweiligen Links,
-hover-Optionen auch hier mit reinpacken */
+/* main body*/
 
 .projects {
   text-align: center;
-  margin: 15px auto;
 }
 
+#feuerbach a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#feuerbach {
+  margin-top: 25px;
+  margin-bottom: 65px;
+}
+
+#feuerbach a:hover{
+  color: rgb(110,110,110);
+}
+
+.cv{
+  margin: 30px 20px;
+  max-width: 650px;
+  text-align: left;
+}
+
+.cv li {
+  list-style: none;
+}
+
+.cvlinks{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cvlinks a {
+  text-decoration: none;
+  color: rgb(255,112,77);
+}
+
+.cvlinks a:hover {
+  color: rgb(110,110,110);
+}
+
+.cvtext {
+  font-weight: lighter;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.cvhead {
+  font-weight: bold;
+  margin-top: 55px;
+}
 
 /* footer styling */
 .footer {
