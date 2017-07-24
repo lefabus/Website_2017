@@ -8,10 +8,6 @@
 
 }
 
-a img:hover {
-  -webkit-transform: scale(1.05,1.05);
-}
-
 body{
   padding: 0;
   margin: 0;
@@ -35,14 +31,15 @@ body{
   margin: auto;
   overflow: hidden;
 }
-
-ul{
-  margin: 0px;
-  padding: 0px;
+#feuerbach{
+  color: rgb(0,0,0);
+  margin-bottom: 20px;
+  text-decoration: none;
 }
 
+
 section {
-  font: 15px 1.5 "Avant Garde", 'Raleway',sans-serif;
+  font: 15px 1.5 "Avant Garde",Avenir,sans-serif;
 }
 
 /*styling header */
@@ -105,6 +102,10 @@ section {
   margin-right: 10px;
 }
 
+#logo:hover {
+/* welche hover optionen habe ich hier ? */
+}
+
 .header a:hover{
   color: rgb(110,110,110);
   font-weight: bold;
@@ -114,32 +115,85 @@ section {
   font: auto 1.0 Walbaum, Bodoni, serif;
 }
 
+/* showcase, wenn zwischendurch etwas dazu packen will, dann 33:00*/
+
 .containerimages img {
-  /*min-width: 500px;*/
   overflow: visible;
   height: 420px;
 }
 
-/* main, alle Bilder und Beschreibung */
+.footer img {
+  /*min-width: 500px;*/
+  overflow: visible;
+  height: auto;
+}
+
+/* main body*/
 
 .projects {
   text-align: center;
-  margin: 15px auto;
 }
 
-.projects p {
-  margin-bottom: 80px;
+#feuerbach a{
+  text-decoration: none;
+  color: inherit;
 }
 
+#feuerbach {
+  margin-top: 25px;
+  margin-bottom: 65px;
+}
+
+#feuerbach a:hover{
+  color: rgb(110,110,110);
+}
+
+.cv{
+  margin: 30px 20px;
+  max-width: 650px;
+  text-align: left;
+}
+
+.cv li {
+  list-style: none;
+}
+
+
+.cvlinks{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cvlinks a {
+  text-decoration: none;
+  color: rgb(255,112,77);
+}
+
+.cvlinks a:hover {
+  color: rgb(110,110,110);
+}
+
+.cvtext {
+  font-weight: lighter;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.cvhead {
+  font-weight: bold;
+  margin-top: 55px;
+}
 
 /* footer styling */
 .footer {
   width: 100%;
   font: 16px 1.5 Walbaum, Bodoni, serif;
+  /*background-color: rgb(190,190,190);*/
   color: rgb(0,0,0);
   padding-bottom:20px;
   padding-top: 10px;
   min-height:70px;
+  /*text-align: left; NEED TO BE MORE SPECIFIC */
   display: inline;
 
 }
@@ -147,6 +201,7 @@ section {
 .footer #facebook {
   text-align: right;
   margin-right:125px;
+
 }
 
 .footer #instagram {
@@ -179,7 +234,33 @@ margin-right: 60px;
 margin-top: 80px;
 }
 
-.footer img {
-  overflow: visible;
-  height: auto;
+.footer #facebook:hover{
+ /*how can i add the coloured img underneath here, so it will show as hover option?? */
+}
+
+.footer #instagram:hover{
+ /*how can i add the coloured img underneath here, so it will show as hover option?? */
+/*background-color: rgb(0, 0, 0);*/
+}
+
+/*body .footer {
+margin-top: 80px;
+}*/
+
+/* ab hier nur gestaltung der contact seite */
+
+.contact{
+height: auto;
+width: 400px;
+margin: 0 auto;
+margin-bottom: 50px;
+text-align: left;
+border-style: solid;
+border-width: 2px;
+border-color: rgb(255,112,77);
+padding: 20px 30px;
+}
+
+.contact li {
+  list-style: none;
 }

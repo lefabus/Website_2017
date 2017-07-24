@@ -8,41 +8,27 @@
 
 }
 
-a img:hover {
-  -webkit-transform: scale(1.05,1.05);
-}
-
 body{
   padding: 0;
   margin: 0;
   background-color: rgb(255,255,255);
+  /*background: url(../photos/logo_farbe2.png) no-repeat 0 550px;*/
 }
 
 .container {
   width: 80%;
   margin: auto;
   overflow: hidden;
+
 }
 
-.container ul{
-  position: relative;
-  top:13px;
-}
 
-.containerimages {
-  min-width: 200px;
-  max-width: 500px;
-  margin: auto;
-  overflow: hidden;
-}
-
-ul{
-  margin: 0px;
-  padding: 0px;
-}
 
 section {
-  font: 15px 1.5 "Avant Garde", 'Raleway',sans-serif;
+  font: auto 1.5 "Avant Garde",Avenir,sans-serif;
+  margin-bottom: 30px;
+  position: relative;
+  bottom: 20px;
 }
 
 /*styling header */
@@ -52,101 +38,78 @@ section {
   padding-top: 20px;
   min-height:70px;
   font-family: "Walbaum 12 Walbaum**", Bodoni, serif;
-  margin-bottom: 80px;
-  margin-top: 10px;
+  margin-bottom:0;
+  margin-top:0;
+  position: relative;
+  top: -20px;
 }
 
 .header a{
   color: rgb(0,0,0);
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
 }
 
-.header ul{
-  padding: 0;
-  margin: 0;
+#asterisk {
+  font-size: 30pt;
+  padding: 0px;
+  margin: 0px;
+  color: rgb(255, 112, 77);
 }
 
-.header li{
-  float: left;
-  display:inline;
-  padding: 20px 12px 3px 20px;
-}
-
-.header #branding{
-  float:left;
-  margin-bottom: 5px;
-}
-
-.header nav{
-  float:right;
-  margin-top: 12px;
-  margin-right: 30px;
-  margin-bottom: 10px;
-}
-
-.header #branding h1{
-  margin: 0;
-}
-
-.header .highlight, .header .selected a{
-  color: rgb(255, 112,77);
-  font-weight: bold;
-}
-
-#logo {
-  position: relative;
-  top:10px;
-  right:2px;
-  padding: 0;
-  margin: 0;
-  margin-left: 30px;
-  margin-right: 10px;
-}
-
-.header a:hover{
+#asterisk:hover {
   color: rgb(110,110,110);
   font-weight: bold;
 }
 
-#branding {
-  font: auto 1.0 Walbaum, Bodoni, serif;
+.subtext {
+  font-size: 25pt;
 }
 
-.containerimages img {
+.buttons a, .buttons h4 {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(255,112,77);
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.buttons a{
+  border-width: 2px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(255, 112,77);
+  padding: 7px;
+  background-color: rgb(255, 255,255);
+}
+
+.footer img {
   /*min-width: 500px;*/
   overflow: visible;
-  height: 420px;
+  height: auto;
 }
-
-/* main, alle Bilder und Beschreibung */
-
-.projects {
-  text-align: center;
-  margin: 15px auto;
-}
-
-.projects p {
-  margin-bottom: 80px;
-}
-
 
 /* footer styling */
 .footer {
   width: 100%;
   font: 16px 1.5 Walbaum, Bodoni, serif;
+  /*background-color: rgb(190,190,190);*/
   color: rgb(0,0,0);
   padding-bottom:20px;
   padding-top: 10px;
   min-height:70px;
+  /*text-align: left; NEED TO BE MORE SPECIFIC */
   display: inline;
 
 }
 
 .footer #facebook {
   text-align: right;
-  margin-right:125px;
+  margin-right:133px;
+
 }
 
 .footer #instagram {
@@ -179,7 +142,15 @@ margin-right: 60px;
 margin-top: 80px;
 }
 
-.footer img {
-  overflow: visible;
-  height: auto;
+.footer #facebook:hover{
+ /*how can i add the coloured img underneath here, so it will show as hover option?? */
 }
+
+.footer #instagram:hover{
+ /*how can i add the coloured img underneath here, so it will show as hover option?? */
+/*background-color: rgb(0, 0, 0);*/
+}
+
+/*body .footer {
+margin-top: 80px;
+}*/
