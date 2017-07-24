@@ -258,12 +258,18 @@ section {
 
 /* about-site */
 
-#imgfeuerbach {
+/*#imgfeuerbach {
   width: 400px;
   height: auto;
   overflow: hidden;
   margin-top: 21px;
-  /* weird number to make sure it is the same height as border on contact page */
+  /* weird number to make sure it is the same height as border on contact page }*/
+
+#imgfeuerbach {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 #feuerbach{
@@ -289,10 +295,8 @@ section {
   max-width: 500px;
   text-align: left;
   height: auto;
-}
-
-.cv li {
-  list-style: none;
+padding-left: 30px;
+padding-right: 30px;
 }
 
 .cvlinks{
@@ -320,11 +324,18 @@ section {
   margin-top: 55px;
 }
 
-.containerabout { /*NOT NEEDED ANYMORE, BUT NEED "N CLASS"
-TO Arrange PHOTOT WITHOUT MARGIN AND TEXT WITH 20X MARGIN ON EACH SIDE*/
-  width: 80%;
+.about {
   height: auto;
-  margin: inherit;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 30px;
+  width: 60%;
+  min-width: 400px;
+  max-width: 570px;
+}
+
+.cv li {
+list-style: none;
 }
 
 /* contact-site */
