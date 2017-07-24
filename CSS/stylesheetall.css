@@ -84,7 +84,7 @@ a img:hover {
   color: rgb(0,0,0);
   padding-top: 20px;
   min-height:70px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   margin-top: 10px;
   /*position: fixed; liegt im hintergrund, wie ordnet man das nochmal zu?*/
 }
@@ -295,8 +295,8 @@ section {
   max-width: 500px;
   text-align: left;
   height: auto;
-padding-left: 30px;
-padding-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .cvlinks{
@@ -328,10 +328,11 @@ padding-right: 30px;
   height: auto;
   margin: 0 auto;
   margin-bottom: 10px;
-  padding: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
   width: 60%;
   min-width: 400px;
-  max-width: 570px;
+  max-width: 450px;
 }
 
 .cv li {
@@ -340,16 +341,20 @@ list-style: none;
 
 /* contact-site */
 
-.contact{
-height: auto;
-width: 400px;
-margin: 0 auto;
-margin-bottom: 50px;
-text-align: left;
-border-style: solid;
-border-width: 2px;
-border-color: rgb(255,112,77);
-padding: 20px 30px;
+.contact {
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 60%;
+  min-width: 300px;
+  max-width: 450px;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255,112,77);
+  padding: 30px;
+  padding-bottom: 50px;
+  padding-left: 40px;
 }
 
 .contact li {
