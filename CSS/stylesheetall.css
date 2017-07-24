@@ -23,14 +23,13 @@ body {
 }
 
 a img:hover {
-  -webkit-transform: scale(1.08,1.08);
+  -webkit-transform: scale(1.085,1.085);
 }
 
 /* global footer */
 
 .footer {
   width: 100%;
-  font: 16px 1.5 Walbaum, Bodoni, serif;
   color: rgb(0,0,0);
   padding-bottom:20px;
   padding-top: 10px;
@@ -39,12 +38,10 @@ a img:hover {
 }
 
 .footer #facebook {
-  text-align: right;
   margin-right:125px;
 }
 
 .footer #instagram {
-  text-align: right;
   margin-right: 2px;
 }
 
@@ -73,7 +70,6 @@ a img:hover {
 }
 
 .footer img {
-  overflow: visible;
   height: auto;
 }
 
@@ -86,13 +82,12 @@ a img:hover {
   min-height:70px;
   margin-bottom: 60px;
   margin-top: 10px;
-  /*position: fixed; liegt im hintergrund, wie ordnet man das nochmal zu?*/
 }
 
 .header a{
   color: rgb(0,0,0);
   text-decoration: none;
-  font-size: 16px;
+  /*font-size: 16px;*/
   font-weight: bold;
 }
 
@@ -143,10 +138,6 @@ a img:hover {
   font-weight: bold;
 }
 
-#branding {
-  font: auto 1.0 Walbaum, Bodoni, serif;
-}
-
 .container ul{
   position: relative;
   top:13px;
@@ -194,7 +185,7 @@ section {
   font-weight: bold;
 }
 
-#asterisk {
+#hithere {
   font-size: 28pt;
   padding: 0px;
   margin: 0px;
@@ -202,7 +193,7 @@ section {
   text-decoration: none;
 }
 
-#asterisk:hover {
+#hithere:hover {
   color: rgb(110,110,110);
   font-weight: bold;
 }
@@ -268,7 +259,6 @@ section {
 #feuerbach{
   color: rgb(0,0,0);
   margin-bottom: 20px;
-  text-decoration: none;
 }
 
 #feuerbach a{
