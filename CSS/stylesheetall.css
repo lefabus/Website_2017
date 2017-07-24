@@ -262,6 +262,7 @@ section {
 
 #imgfeuerbach {
   width: 400px;
+  height: auto;
   overflow: hidden;
   margin-top: 21px;
   /* weird number to make sure it is the same height as border on contact page */
@@ -286,8 +287,10 @@ section {
 
 .cv{
   margin: 0 auto;
+  overflow: hidden;
   max-width: 500px;
   text-align: left;
+  height: auto;
 }
 
 .cv li {
@@ -319,7 +322,8 @@ section {
   margin-top: 55px;
 }
 
-.containerabout {
+.containerabout { /*NOT NEEDED ANYMORE, BUT NEED "N CLASS"
+TO Arrange PHOTOT WITHOUT MARGIN AND TEXT WITH 20X MARGIN ON EACH SIDE*/
   width: 80%;
   height: auto;
   margin: inherit;
