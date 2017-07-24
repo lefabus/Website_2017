@@ -86,6 +86,7 @@ a img:hover {
   min-height:70px;
   margin-bottom: 80px;
   margin-top: 10px;
+  /*position: fixed; liegt im hintergrund, wie ordnet man das nochmal zu?*/
 }
 
 .header a{
@@ -146,21 +147,18 @@ a img:hover {
   font: auto 1.0 Walbaum, Bodoni, serif;
 }
 
-.containerimages img {
-  overflow: visible;
-  height: 420px;
-}
-
 .container ul{
   position: relative;
   top:13px;
 }
 
-.containerimages {
-  min-width: 200px;
-  max-width: 500px;
-  margin: auto;
+.containerimages img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
   overflow: hidden;
+  padding: 30px;
+  max-width: 850px;
 }
 
 ul{
