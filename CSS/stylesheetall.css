@@ -258,13 +258,6 @@ section {
 
 /* about-site */
 
-/*#imgfeuerbach {
-  width: 400px;
-  height: auto;
-  overflow: hidden;
-  margin-top: 21px;
-  /* weird number to make sure it is the same height as border on contact page }*/
-
 #imgfeuerbach {
   width: 100%;
   height: auto;
@@ -347,7 +340,7 @@ list-style: none;
   margin-bottom: 10px;
   width: 60%;
   min-width: 300px;
-  max-width: 450px;
+  max-width: 400px;
   overflow: hidden;
   border-style: solid;
   border-width: 2px;
